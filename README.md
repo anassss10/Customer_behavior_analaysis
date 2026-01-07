@@ -110,7 +110,7 @@ Provided data-driven recommendations
 
 **▶️ How to Run the Project**
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/data-analytics-project.git
+git clone https://github.com/anassss10/data-analytics-project.git
 
 2️⃣ Install Required Libraries
 pip install pandas numpy psycopg2 sqlalchemy
@@ -132,3 +132,6 @@ Run SQL queries
 Load SQL tables
 Refresh data
 Explore dashboards
+
+
+
