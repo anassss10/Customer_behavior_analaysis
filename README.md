@@ -1,4 +1,5 @@
 # Customer_behavior_analaysis
+
 Data Analysis Project Showcasing Customer Behavior Analysis Using Python, Sql and Power Bi
 Project Overview
 
@@ -7,37 +8,32 @@ The goal is to transform raw data into meaningful insights using Python, SQL, an
 
 The project is designed to be simple, clear, and recruiter-friendly, making it suitable for academic submissions and portfolio showcasing.
 
-Tools & Technologies Used
+**Tools & Technologies Used**
 
 Python – Data loading, cleaning, and analysis
-
 Pandas, NumPy – Data manipulation
-
-PostgreSQL / MySQL – SQL querying and data storage
-
-PgAdmin / MySQL Workbench – Database management
-
+MySQL – SQL querying and data storage
+MySQL Workbench – Database management
 Power BI – Interactive dashboards and visualization
-
 MS Excel / CSV – Raw data source
 
-Gamma – Presentation and storytelling
 
-Dataset
+
+**Dataset**
 
 Source: CSV files (sample operational/business data)
-
 Records: 10,000+ rows
 
-Features include:
+
+**Features include:**
 
 Customer / Transaction details
-
 Dates & time-based fields
-
 Numerical and categorical attributes
 
-⚙️ Project Architecture
+
+
+**⚙️ Project Architecture**
 Data Source (CSV)
         ↓
 Python (EDA & Cleaning)
@@ -48,105 +44,91 @@ Power BI Dashboard
         ↓
 Insights & Reporting
 
-Data Cleaning & Preprocessing
+
+
+**Data Cleaning & Preprocessing**
 
 Performed using Python (Pandas):
-
 Removed missing and duplicate values
-
 Corrected data types (dates, integers, floats)
-
 Handled outliers
-
 Created derived columns for analysis
-
 Normalized and standardized data where required
 
-Exploratory Data Analysis (EDA)
+
+
+**Exploratory Data Analysis (EDA)**
 
 Summary statistics
-
 Trend analysis
-
 Category-wise distribution
-
 Time-based analysis
-
 Correlation checks
 
-SQL Analysis
+
+
+**SQL Analysis**
 
 Created relational tables
-
 Applied JOIN, GROUP BY, CASE, and subqueries
-
 Performed aggregations and KPI calculations
-
 Optimized queries for performance
 
 Example SQL Queries:
-
 Monthly trends
-
 Customer segmentation
-
 Performance metrics
 
-Power BI Dashboard
+
+
+**Power BI Dashboard**
 
 The Power BI dashboard includes:
-
 KPI cards
-
 Bar charts & line charts
-
 Filters and slicers
-
 Trend and comparison views
 
-Insights include:
+
+**Insights include:**
 
 Performance trends
-
 Customer behavior analysis
-
 Growth patterns
-
 Operational efficiency
 
-Key Results & Insights
+
+
+**Key Results & Insights**
 
 Identified top-performing categories
-
 Detected seasonal patterns
-
 Highlighted inefficiencies and improvement areas
-
 Provided data-driven recommendations
 
-▶️ How to Run the Project
+
+
+**▶️ How to Run the Project**
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/data-analytics-project.git
 
 2️⃣ Install Required Libraries
 pip install pandas numpy psycopg2 sqlalchemy
 
+
 3️⃣ Run Python Scripts
 python data_cleaning.py
 python eda_analysis.py
 
+
 4️⃣ Load Data into SQL
 
 Create database
-
 Import cleaned CSV files
-
 Run SQL queries
 
+
 5️⃣ Open Power BI
-
 Load SQL tables
-
 Refresh data
-
 Explore dashboards
